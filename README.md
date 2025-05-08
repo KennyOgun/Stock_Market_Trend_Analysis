@@ -1,1 +1,1 @@
-# Stock_Market_Trend_Analysis
+# Financial Market Prediction and Investment Strategy Optimization
