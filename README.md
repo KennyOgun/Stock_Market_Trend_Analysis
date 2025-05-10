@@ -40,5 +40,13 @@ Prime INC seeks to overcome limitations in traditional investment analysis by em
 
   * 📈 Stock Price Trend & Direction
 
+# 🧠 Project Overview
 
+This project combines technical stock analysis and fundamental financial assessment using advanced machine learning techniques. By analyzing past market performance, financial statements, and risk profiles, we aim to:
+
+* Forecast future stock price movement (one-step and multi-step horizons).
+
+* Provide actionable investment recommendations based on model outputs.
+
+* Support Prime INC's shift toward automated, data-driven decision-making.
 
