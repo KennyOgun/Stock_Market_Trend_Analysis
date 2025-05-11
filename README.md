@@ -4,6 +4,17 @@
 
 A Data-Driven Approach to Financial Market Prediction and Investment Strategy Optimization
 
+# 🧠 Project Overview
+
+This project combines technical stock analysis and fundamental financial assessment using advanced machine learning techniques. By analyzing past market performance, financial statements, and risk profiles, we aim to:
+
+* Forecast future stock price movement (one-step and multi-step horizons).
+
+* Provide actionable investment recommendations based on model outputs.
+
+* Support Prime INC's shift toward automated, data-driven decision-making.
+  
+
 # 🏢 Business Context
 
 A globally recognized investment firm known for its strategic interest in emerging markets delivers flexible and technology-driven investment solutions tailored to diverse client profiles. However, after missing key investment opportunities in the previous quarter due to delayed and inefficient decision-making, Prime INC is looking to integrate machine learning to drive predictive insights and optimize stock portfolio strategies.
@@ -11,9 +22,9 @@ A globally recognized investment firm known for its strategic interest in emergi
 # 🎯 Business Problem
 Prime INC seeks to overcome limitations in traditional investment analysis by embracing data-driven methods. The key challenge is:
 
-**How can we accurately predict the direction of stock prices to identify profitable investment opportunities and reduce risk?**
+**"How can we accurately predict the direction of stock prices to identify profitable investment opportunities and reduce risk?"**
 
-##❗ Specific Obstacles
+❗Specific Obstacles
  * **Missed Opportunities:** Delayed analysis led to lost high-return opportunities.
 
  * **Lack of Predictive Models:** No reliable mechanism to forecast stock price direction.
@@ -40,13 +51,22 @@ Prime INC seeks to overcome limitations in traditional investment analysis by em
 
   * 📈 Stock Price Trend & Direction
 
-# 🧠 Project Overview
+# Data Description
 
-This project combines technical stock analysis and fundamental financial assessment using advanced machine learning techniques. By analyzing past market performance, financial statements, and risk profiles, we aim to:
+ ## Data Sources: The Stock price data and the company Financials  were sourced from Yahoo Finance API (yfinance) which covered the period of 14 years (02/01/2010 to 30/12/2024).
 
-* Forecast future stock price movement (one-step and multi-step horizons).
+These features are derived from historical stock prices;
 
-* Provide actionable investment recommendations based on model outputs.
+* Date: Timestamp of the stock price data.
+* Open Price: Opening price of the stock on a given day.
+* High Price: Highest stock price during the trading day.
+* Low Price: Lowest stock price during the trading day.
+* Close Price: Final price of the stock at market close.
+* Adjusted Close Price: Closing price adjusted for stock splits and dividends.
+* Volume: Total number of shares traded in a day.
 
-* Support Prime INC's shift toward automated, data-driven decision-making.
+# Feature Engineering & Exploratory Data Analysis (EDA)
 
+## Feature Engineering
+
+# Data Preprocessing 
